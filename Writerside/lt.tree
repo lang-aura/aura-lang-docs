@@ -9,4 +9,5 @@
     <toc-element topic="Hello-World.md"/>
     <toc-element topic="Comments.md"/>
     <toc-element topic="Type-System.md"/>
+    <toc-element topic="Imports.md"/>
 </instance-profile>
