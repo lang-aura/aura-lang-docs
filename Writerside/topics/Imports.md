@@ -15,7 +15,7 @@ The second type of module that can be imported is modules located on the local f
 For example, consider the following project structure:
 
 ```
-| src
+| src/
     |- main.aura
     |- common/
         |- common.aura
@@ -50,4 +50,31 @@ import (
     aura/io
     common
 )
+```
+
+## Import Scopes
+
+Imports are scoped to the entire Aura source file, and must be included at the top of the file before any other declarations.
+
+```
+mod main
+
+// Imports should appear at the top of the file, after the `mod` statement
+import aura/io
+
+fn main() {
+    // An `import` statement here is illegal
+    import local_module
+    
+    s := f("Hello world")
+    io.println(s)
+}
+
+// This import statement is also illegal. Although it is located in the file's top-level scope, it is placed after the
+// declaration of the `main` function, which is not allowed
+import another_local_module
+
+fn f(s: string) -> string {
+    ...
+}
 ```
