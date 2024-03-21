@@ -2,7 +2,7 @@
 
 ## Import Statements
 
-There are two different types of modules that can be imported into an Aura source file. The first are standard library modules, which always being with `aura`.
+There are two different types of modules that can be imported into an Aura source file. The first are standard library modules, which always begin with `aura`.
 
 For example,
 ```
