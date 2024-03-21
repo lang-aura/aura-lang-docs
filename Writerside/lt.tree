@@ -5,6 +5,7 @@
 <instance-profile id="lt" name="Language Tour"
                   start-page="Overview.md">
 
+    <toc-element topic="Standard-Library.md"/>
     <toc-element topic="Overview.md"/>
     <toc-element topic="Hello-World.md"/>
     <toc-element topic="Comments.md"/>
