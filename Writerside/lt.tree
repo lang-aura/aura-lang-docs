@@ -10,6 +10,7 @@
     <toc-element topic="Hello-World.md"/>
     <toc-element topic="Comments.md"/>
     <toc-element topic="Loops.md"/>
+    <toc-element topic="Functions.md"/>
     <toc-element topic="Type-System.md"/>
     <toc-element topic="Interfaces.md"/>
     <toc-element topic="Imports.md"/>
