@@ -5,16 +5,17 @@
 <instance-profile id="lt" name="Language Tour"
                   start-page="Overview.md">
 
-    <toc-element topic="Classes.md"/>
     <toc-element topic="Standard-Library.md"/>
     <toc-element topic="Overview.md"/>
     <toc-element topic="Hello-World.md"/>
     <toc-element topic="Comments.md"/>
-    <toc-element topic="Structs.md"/>
     <toc-element topic="Loops.md"/>
-    <toc-element topic="Functions.md"/>
-    <toc-element topic="Type-System.md"/>
-    <toc-element topic="Interfaces.md"/>
+    <toc-element topic="Type-System.md">
+        <toc-element topic="Functions.md"/>
+        <toc-element topic="Interfaces.md"/>
+        <toc-element topic="Classes.md"/>
+        <toc-element topic="Structs.md"/>
+    </toc-element>
     <toc-element topic="Imports.md"/>
     <toc-element topic="Variables.md"/>
 </instance-profile>
