@@ -6,11 +6,14 @@
                   start-page="Overview.md">
 
     <toc-element topic="Standard-Library.md"/>
+    <toc-element topic="If-Expressions.md"/>
     <toc-element topic="Overview.md"/>
     <toc-element topic="Hello-World.md"/>
     <toc-element topic="Comments.md"/>
     <toc-element topic="Loops.md"/>
     <toc-element topic="Type-System.md">
+        <toc-element topic="Maps.md"/>
+        <toc-element topic="Lists.md"/>
         <toc-element topic="Functions.md"/>
         <toc-element topic="Interfaces.md"/>
         <toc-element topic="Classes.md"/>
@@ -18,4 +21,7 @@
     </toc-element>
     <toc-element topic="Imports.md"/>
     <toc-element topic="Variables.md"/>
+    <toc-element topic="Quick-Tour.md"/>
+    <toc-element topic="Project-Structure.md"/>
+    <toc-element topic="Modules.md"/>
 </instance-profile>
