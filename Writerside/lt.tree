@@ -8,7 +8,9 @@
     <toc-element topic="Overview.md"/>
     <toc-element topic="Quick-Tour.md"/>
     <toc-element topic="Hello-World.md"/>
-    <toc-element topic="Project-Structure.md"/>
+    <toc-element topic="Project-Structure.md">
+        <toc-element topic="Configuration-Keys.md"/>
+    </toc-element>
     <toc-element topic="Modules.md"/>
     <toc-element topic="Imports.md"/>
     <toc-element topic="Comments.md"/>
