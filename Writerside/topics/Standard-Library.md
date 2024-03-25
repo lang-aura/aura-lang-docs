@@ -20,3 +20,5 @@ strings.to_upper("Hello world")
 
 ## lists
 The `lists` module provides methods for operating on lists, such as finding the length of a list. This module also provides some functional programming-inspired methods, such as `map` and `filter`. This module's methods are invoked as methods on the lists themselves, just like the `strings` module.
+
+## maps
