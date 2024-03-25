@@ -19,6 +19,7 @@
     <toc-element topic="Loops.md"/>
     <toc-element topic="Variables.md"/>
     <toc-element topic="Type-System.md">
+        <toc-element topic="Basic-Types.md"/>
         <toc-element topic="Maps.md"/>
         <toc-element topic="Lists.md"/>
         <toc-element topic="Functions.md"/>
