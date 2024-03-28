@@ -1,4 +1,4 @@
-# Maps
+# Map Type
 
 ## Initialization
 

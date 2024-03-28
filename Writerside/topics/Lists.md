@@ -1,4 +1,4 @@
-# Lists
+# List Type
 
 Lists in Aura are a collection type that contains items of the same type. They can be instantiated like this:
 ```
