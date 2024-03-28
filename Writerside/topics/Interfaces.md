@@ -1,4 +1,4 @@
-# Interfaces
+# Interface Type
 
 ## Declaration
 Interfaces in Aura can be declared using the `interface` keyword like so:

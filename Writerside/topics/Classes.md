@@ -1,4 +1,4 @@
-# Classes
+# Class Type
 
 Classes in Aura are defined with the `class` keyword. They can optionally be preceded with the `pub` keyword, which defines
 the class publicly, meaning it can be accessed from outside its defining module. A class contains zero or more parameters

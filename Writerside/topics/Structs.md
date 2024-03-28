@@ -1,4 +1,4 @@
-# Structs
+# Struct Type
 
 Structs in Aura are designed to contain data. They can be used in place of classes in situations where the programmer
 needs to store data without providing any additional functionality on that data. This is in contrast to classes, which
