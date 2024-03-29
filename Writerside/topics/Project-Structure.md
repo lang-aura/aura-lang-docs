@@ -24,7 +24,7 @@ version = "0.0.1"
 description = ""
 ```
 
-For a complete list of supported configuration keys, see [Configuration Keys](Configuration-Keys.md)
+For a complete list of supported configuration keys, see [Configuration Keys](Configuration-Keys.md "A complete list of supported configuration keys")
 
 ## `src/`
 
@@ -33,7 +33,7 @@ directory called `<project_name>.aura`, which will contain a simple Hello World 
 directory is considered its own module, and all source files in that directory must be a part of the same module (as identified
 by the `mod` declaration at the top of the source file).
 
-To understand how to import local modules into other Aura source file, see [Imports](Imports.md)
+To understand how to import local modules into other Aura source file, see [Imports](Imports.md "How to import external modules")
 
 ## `test/`
 

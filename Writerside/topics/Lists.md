@@ -69,4 +69,4 @@ These methods can also be called on list literals, like this:
 [int]{ 1, 2, 3 }.count() // 3
 ```
 
-To see a complete list of methods, see the standard library's [`lists` module](Standard-Library.md#lists)
+To see a complete list of methods, see the standard library's [`lists` module](Standard-Library.md#lists "The `lists` module")

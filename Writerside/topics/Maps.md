@@ -66,4 +66,4 @@ map[string : int]{
 }.count() // 2
 ```
 
-To see a complete list of methods, see the standard library's [`maps` module](Standard-Library.md#maps)
+To see a complete list of methods, see the standard library's [`maps` module](Standard-Library.md#maps "The `maps` module")
