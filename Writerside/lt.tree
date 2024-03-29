@@ -17,10 +17,10 @@
     <toc-element topic="Standard-Library.md">
         <toc-element topic="lists-module.md"/>
         <toc-element topic="maps-module.md"/>
-        <toc-element topic="results.md"/>
-        <toc-element topic="errors.md"/>
-        <toc-element topic="strings.md"/>
-        <toc-element topic="io.md"/>
+        <toc-element topic="results-module.md"/>
+        <toc-element topic="errors-module.md"/>
+        <toc-element topic="strings-module.md"/>
+        <toc-element topic="io-module.md"/>
     </toc-element>
     <toc-element topic="If-Expressions.md"/>
     <toc-element topic="Loops.md"/>

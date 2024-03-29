@@ -1,24 +1,24 @@
 # Standard Library
 
-The standard library contains many useful, common functions that help perform common tasks in Aura. Currently, there are three built-in modules.
+The standard library contains many useful, common functions that help perform common tasks in Aura. The standard library
+consists of the following modules:
 
 ## io
-The `io` module provides functions for dealing with input/output, such as `print` and `println` to print strings to standard output as-is and followed by a newline, respectively.
+Provides functions for dealing with input/output. See [io](io-module.md) for a complete list of functions.
 
 ## strings
-The `strings` module provides methods that operate on strings, such as `to_upper` to convert a string to all-uppercase. These methods are not called like other methods in the stdlib (i.e. `strings.to_upper()`). Instead, these methods are invoked as methods on the strings themselves, and the compiler will convert the method call to invoke the stdlib method and import the `strings` package. For example, this Aura source code:
-```
-"Hello world".to_upper()
-```
-will be compiled to this, more or less:
-```
-import strings
-
-strings.to_upper("Hello world")
-```
-("more or less" because the `strings` module's import path will depend on the name of your Aura project)
+Provides methods that operate on strings. See [strings](strings-module.md) for a complete list of functions.
 
 ## lists
-The `lists` module provides methods for operating on lists, such as finding the length of a list. This module also provides some functional programming-inspired methods, such as `map` and `filter`. This module's methods are invoked as methods on the lists themselves, just like the `strings` module.
+Provides methods for operating on lists, such as finding the length of a list. This module also provides some functional
+programming-inspired methods, such as `map` and `filter`. See [lists](lists-module.md) for a complete list of functions.
 
 ## maps
+Provides methods for operating on maps. See [maps](maps-module.md) for a complete list of functions.
+
+## results
+Provides methods for extracting concrete types from the `result` data type. See [results](results-module.md) for a complete
+list of functions.
+
+## errors
+Provides methods for working with the `error` data type. See [errors](errors-module.md) for a complete list of functions.

@@ -1,4 +1,4 @@
-# maps module
+# maps
 
 `add(m: map[any : any], key: any, value: any)`
 
