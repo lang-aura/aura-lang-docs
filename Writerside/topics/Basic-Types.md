@@ -23,7 +23,7 @@ digits, these underscores can be used anywhere in any number literal.
 ## `string`
 
 String literals are denoted in Aura by enclosing a string of text in double quotes. Single quotes are reserved for the
-[`char`](Basic-Types.md#char) data type.
+[`char`](Basic-Types.md#char "The `char` type") data type.
 
 ```
 "Hello world"
@@ -32,7 +32,7 @@ String literals are denoted in Aura by enclosing a string of text in double quot
 ## `char`
 
 Char literals are denoted in Aura by enclosing a single character in single quotes. Although a single character enclosed
-in double quotes is valid Aura, that would create a new [`string`](Basic-Types.md#string) data type, not a char.
+in double quotes is valid Aura, that would create a new [`string`](Basic-Types.md#string "The `string` type") data type, not a char.
 
 ```
 'a'

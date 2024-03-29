@@ -13,7 +13,7 @@ mod main
 import aura/io
 ```
 
-See [Modules](Modules.md) and [Imports](Imports.md)
+See [Modules](Modules.md "Detailed information on defining modules in Aura") and [Imports](Imports.md "Detailed information on importing external modules")
 
 ## Program Entrypoint
 
@@ -25,7 +25,7 @@ fn main() {
 }
 ```
 
-See [Project Structure](Project-Structure.md)
+See [Project Structure](Project-Structure.md "Detailed information on an Aura project's structure")
 
 ## Printing to stdout
 
@@ -44,7 +44,7 @@ io.println("Hello world")
 io.printf("%s %d\n", "Hello world", 5)
 ```
 
-See [Standard Library](Standard-Library.md) and [`io` module](Standard-Library.md#io)
+See [Standard Library](Standard-Library.md "The Aura standard library") and [`io` module](Standard-Library.md#io "Provides functions to dealing with input/output")
 
 ## Functions
 
@@ -56,7 +56,7 @@ fn f(i:int) -> string {
 }
 ```
 
-See [Functions](Functions.md)
+See [Functions](Functions.md "Detailed information on defining functions in Aura")
 
 ## Variables
 
@@ -79,7 +79,7 @@ let mut i: int = 5
 mut j := 5
 ```
 
-See [Variables](Variables.md)
+See [Variables](Variables.md "Detailed information on defining variables in Aura")
 
 ## Classes and Structs
 
@@ -104,7 +104,7 @@ greeter := Greeter("Bob")
 resp := ApiResponse("1", "John", "Doe")
 ```
 
-See [Classes](Classes.md) and [Structs](Structs.md)
+See [Classes](Classes.md "The Aura `class` specification") and [Structs](Structs.md "The Aura `struct` specification")
 
 ## Comments
 
@@ -124,7 +124,7 @@ and goes until the closing
 token here -> */
 ```
 
-See [Comments](Comments.md)
+See [Comments](Comments.md "Detailed information on defining comments in Aura")
 
 ## Conditional Expressions
 
@@ -138,7 +138,7 @@ i := if true {
 }
 ```
 
-See [`if` expressions](If-Expressions.md)
+See [`if` expressions](If-Expressions.md "The Aura `if` expression specification")
 
 ## Loops
 
@@ -166,7 +166,7 @@ while true {
 }
 ```
 
-See [Loops](Loops.md)
+See [Loops](Loops.md "Detailed information on defining loops in Aura")
 
 ## Collections
 
@@ -183,4 +183,4 @@ m := map[string : int]{
 }
 ```
 
-See [Types](Type-System.md), [Lists](Lists.md), and [Maps](Maps.md)
+See [Types](Type-System.md "The Aura type system"), [Lists](Lists.md "The Aura list type"), and [Maps](Maps.md "The Aura map type")
