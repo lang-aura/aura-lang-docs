@@ -1,4 +1,4 @@
-# lists-module
+# lists
 
 `contains(l: [any], item: any) -> bool`
 
