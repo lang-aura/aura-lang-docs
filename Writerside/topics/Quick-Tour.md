@@ -37,7 +37,7 @@ import aura/io
 // Prints to stdout; does not append a newline
 io.print("Hello world")
 
-// Prints to stdout' appends a newline
+// Prints to stdout; appends a newline
 io.println("Hello world")
 
 // Assembles string and prints to stdout
