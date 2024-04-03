@@ -34,4 +34,5 @@
         <toc-element topic="Classes.md"/>
         <toc-element topic="Structs.md"/>
     </toc-element>
+    <toc-element topic="Error-Handling.md"/>
 </instance-profile>
